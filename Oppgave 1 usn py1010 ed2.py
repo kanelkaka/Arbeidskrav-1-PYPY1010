@@ -7,30 +7,30 @@ Laget av: HeleneA
 
 """
 
-#Fellesk
+# Felles
 Antallkm = 25000
 Trafikkavg = 8.38
 ArligTrafikkAvg = Trafikkavg * 365
 
 
-#Elbil
+# Elbil
 ForsikringEl = 5000
 ForbrukEL = 0.2 # kWh pr km
 Strompris = 2 # Ladepris pr kWh
 BomavgEL = 0.1 # Bomavgift pr km
 
-#Bensinbil
+# Bensinbil
 Bensinpris = 1.0 # Drivstoff per km
 ForsikringBb = 7500 # Forsikring årlig
 BomavgBb = 0.3 #Bomavgift pr km
 
 
-#Beregninger Elbil:
+# Beregninger Elbil:
 StromKostnad = Antallkm * ForbrukEL * Strompris
 BomKostnadEL = Antallkm * BomavgEL
 ElbilTotal = StromKostnad + BomKostnadEL + ForsikringEl + ArligTrafikkAvg
 
-#Beregninger Bensinbil:
+# Beregninger Bensinbil:
 Drivstoffkostnad = Antallkm * Bensinpris
 BomkostnadBb = Antallkm * BomavgBb
 BensinbilTotal = Drivstoffkostnad + BomkostnadBb + ForsikringBb + ArligTrafikkAvg
