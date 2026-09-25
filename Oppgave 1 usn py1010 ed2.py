@@ -22,7 +22,7 @@ BomavgEL = 0.1 # Bomavgift pr km
 # Bensinbil
 Bensinpris = 1.0 # Drivstoff per km
 ForsikringBb = 7500 # Forsikring årlig
-BomavgBb = 0.3 #Bomavgift pr km
+BomavgBb = 0.3 # Bomavgift pr km
 
 
 # Beregninger Elbil:
